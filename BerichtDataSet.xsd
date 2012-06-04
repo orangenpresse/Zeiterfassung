@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bericht" targetNamespace="http://tempuri.org/Bericht.xsd" xmlns:mstns="http://tempuri.org/Bericht.xsd" xmlns="http://tempuri.org/Bericht.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Bericht" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Bericht" msprop:Generator_DataSetName="Bericht" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BerichtZeiten" msprop:Generator_UserTableName="BerichtZeiten" msprop:Generator_RowDeletedName="BerichtZeitenRowDeleted" msprop:Generator_RowChangedName="BerichtZeitenRowChanged" msprop:Generator_RowClassName="BerichtZeitenRow" msprop:Generator_RowChangingName="BerichtZeitenRowChanging" msprop:Generator_RowEvArgName="BerichtZeitenRowChangeEvent" msprop:Generator_RowEvHandlerName="BerichtZeitenRowChangeEventHandler" msprop:Generator_TableClassName="BerichtZeitenDataTable" msprop:Generator_TableVarName="tableBerichtZeiten" msprop:Generator_RowDeletingName="BerichtZeitenRowDeleting" msprop:Generator_TablePropName="BerichtZeiten">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Kat1" msprop:Generator_UserColumnName="Kat1" msprop:Generator_ColumnVarNameInTable="columnKat1" msprop:Generator_ColumnPropNameInRow="Kat1" msprop:Generator_ColumnPropNameInTable="Kat1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Kat2" msprop:Generator_UserColumnName="Kat2" msprop:Generator_ColumnVarNameInTable="columnKat2" msprop:Generator_ColumnPropNameInRow="Kat2" msprop:Generator_ColumnPropNameInTable="Kat2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Kat3" msprop:Generator_UserColumnName="Kat3" msprop:Generator_ColumnVarNameInTable="columnKat3" msprop:Generator_ColumnPropNameInRow="Kat3" msprop:Generator_ColumnPropNameInTable="Kat3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Dauer" msprop:Generator_UserColumnName="Dauer" msprop:Generator_ColumnVarNameInTable="columnDauer" msprop:Generator_ColumnPropNameInRow="Dauer" msprop:Generator_ColumnPropNameInTable="DauerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Urlaub" msprop:Generator_UserColumnName="Urlaub" msprop:Generator_ColumnVarNameInTable="columnUrlaub" msprop:Generator_ColumnPropNameInRow="Urlaub" msprop:Generator_ColumnPropNameInTable="UrlaubColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Arbeitstag" msprop:Generator_UserColumnName="Arbeitstag" msprop:Generator_ColumnVarNameInTable="columnArbeitstag" msprop:Generator_ColumnPropNameInRow="Arbeitstag" msprop:Generator_ColumnPropNameInTable="ArbeitstagColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Frei" msprop:Generator_UserColumnName="Frei" msprop:Generator_ColumnVarNameInTable="columnFrei" msprop:Generator_ColumnPropNameInRow="Frei" msprop:Generator_ColumnPropNameInTable="FreiColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Krank" msprop:Generator_UserColumnName="Krank" msprop:Generator_ColumnVarNameInTable="columnKrank" msprop:Generator_ColumnPropNameInRow="Krank" msprop:Generator_ColumnPropNameInTable="KrankColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_UserColumnName="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GesamtZeit" msprop:Generator_UserColumnName="GesamtZeit" msprop:Generator_ColumnVarNameInTable="columnGesamtZeit" msprop:Generator_ColumnPropNameInRow="GesamtZeit" msprop:Generator_ColumnPropNameInTable="GesamtZeitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ZStand" msprop:Generator_UserColumnName="ZStand" msprop:Generator_ColumnVarNameInTable="columnZStand" msprop:Generator_ColumnPropNameInRow="ZStand" msprop:Generator_ColumnPropNameInTable="ZStandColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Prozent" msprop:Generator_UserColumnName="Prozent" msprop:Generator_ColumnVarNameInTable="columnProzent" msprop:Generator_ColumnPropNameInRow="Prozent" msprop:Generator_ColumnPropNameInTable="ProzentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ZStandKat1" msprop:Generator_UserColumnName="ZStandKat1" msprop:Generator_ColumnPropNameInRow="ZStandKat1" msprop:Generator_ColumnVarNameInTable="columnZStandKat1" msprop:Generator_ColumnPropNameInTable="ZStandKat1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ProzentKat1" msprop:Generator_UserColumnName="ProzentKat1" msprop:Generator_ColumnPropNameInRow="ProzentKat1" msprop:Generator_ColumnVarNameInTable="columnProzentKat1" msprop:Generator_ColumnPropNameInTable="ProzentKat1Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:BerichtZeiten" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
